@@ -1,15 +1,45 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-    "adminUsername": {
-      "value": "GEN-UNIQUE"
-    },
-    "adminPasswordOrKey": {
-      "value": "GEN-SSH-PUB-KEY"
-    },
-    "dnsLabelPrefix": {
-      "value": "GEN-UNIQUE"
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": ""
+        },
+        "networkInterfaceName": {
+            "value": ""
+        },
+        "subnetName": {
+            "value": ""
+        },
+        "virtualNetworkId": {
+            "value": ""
+        },
+        "publicIpAddressName": {
+            "value": ""
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": ""
+        },
+        "virtualMachineRG": {
+            "value": ""
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": ""
+        },
+        "adminUsername": {
+            "value": ""
+        },
+        "adminPassword": {
+            "value": ""
+        }
     }
-  }
 }
