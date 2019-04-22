@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "chinanorth"
+        },
+        "networkInterfaceName": {
+            "value": "fuzlvmtestvm931"
+        },
+        "subnetName": {
+            "value": "subnet-5"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/c1fe03e6-ff80-4d91-824d-ba495a000792/resourceGroups/fuzlnewrg/providers/Microsoft.Network/virtualNetworks/fuzlvnet"
+        },
+        "publicIpAddressName": {
+            "value": "fuzlvmtestvm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "fuzlvmtestvm"
+        },
+        "virtualMachineRG": {
+            "value": "fuzlnewrg"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_A2"
+        },
+        "adminUsername": {
+            "value": "zifang"
+        },
+        "adminPassword": {
+            "value": "FZL687190fzl"
+        }
+    }
+}
